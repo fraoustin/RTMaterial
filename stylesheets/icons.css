@@ -1,0 +1,107 @@
+/* from https://feathericons.com/ */
+.icon,
+.icon-only,
+.sort-handle,
+input.autocomplete {background-size: 16px 16px;}
+
+.icon-add { background-image: url(../images/plus-circle.svg); }
+.icon-edit { background-image: url(../images/edit.svg); }
+.icon-copy { background-image: url(../images/copy.svg); }
+.icon-duplicate { background-image: url(../images/copy.svg); }
+.icon-del { background-image: url(../images/trash-2.svg); }
+.icon-move { background-image: url(../images/move.svg); }
+.icon-save { background-image: url(../images/save.svg); }
+.icon-download { background-image: url(../images/download.svg); }
+.icon-cancel { background-image: url(../images/x-circle.svg); }
+.icon-multiple { background-image: url(../images/copy.svg); }
+.icon-folder { background-image: url(../images/folder.svg); }
+.open .icon-folder { background-image: url(../images/folder.svg); }
+.icon-package { background-image: url(../images/package.svg); }
+.icon-user { background-image: url(../images/user.svg); }
+.icon-project, .icon-projects { background-image: url(../images/grid.svg); }
+.icon-help { background-image: url(../images/help-circle.svg); }
+.icon-attachment  { background-image: url(../images/paperclip.svg); }
+.icon-history  { background-image: url(../images/archive.svg); }
+.icon-time-entry, .icon-time  { background-image: url(../images/clock.svg); }
+.icon-time-add  { background-image: url(../images/watch.svg); }
+.icon-stats  { background-image: url(../images/activity.svg); }
+.icon-warning  { background-image: url(../images/alert-triangle.svg); }
+.icon-error { background-image: url(../images/alert-circle.svg); }
+.icon-fav  { background-image: url(../images/starfav.svg); }
+.icon-fav-off  { background-image: url(../images/star.svg); }
+.icon-reload  { background-image: url(../images/rotate-cw.svg); }
+.icon-lock, .icon-locked  { background-image: url(../images/lock.svg); }
+.icon-unlock  { background-image: url(../images/unlock.svg); }
+.icon-checked  { background-image: url(../images/check-square.svg); }
+.icon-report  { background-image: url(../images/book.svg); }
+.icon-comment, .icon-comments  { background-image: url(../images/message-circle.svg); }
+.icon-summary  { background-image: url(../images/zap.svg); }
+.icon-server-authentication { background-image: url(../images/key.svg); }
+.icon-issue { background-image: url(../images/file.svg); }
+.icon-zoom-in { background-image: url(../images/zoom_in.svg); }
+.icon-zoom-out { background-image: url(../images/zoom_out.svg); }
+.icon-magnifier { background-image: url(../images/search.svg); }
+.icon-passwd { background-image: url(../images/key.svg); }
+.icon-arrow-right, .icon-test, .icon-sticky { background-image: url(../images/arrow-right.svg); }
+.icon-email { background-image: url(../images/mail.svg); }
+.icon-email-disabled { background-image: url(../images/mail_grey.svg); }
+.icon-email-add { background-image: url(../images/mail_green.svg); }
+.icon-ok { background-image: url(../images/check.svg); }
+.icon-not-ok { background-image: url(../images/x.svg); }
+.icon-link-break { background-image: url(../images/link-2.svg); }
+.icon-list { background-image: url(../images/list.svg); }
+.icon-close { background-image: url(../images/x-square.svg); }
+.icon-close:hover { background-image: url(../images/x-square-hl.svg); }
+.icon-settings { background-image: url(../images/settings.svg); }
+.icon-group, .icon-groupnonmember, .icon-groupanonymous { background-image: url(../images/users.svg); }
+.icon-roles { background-image: url(../images/database.svg); }
+.icon-issue-edit { background-image: url(../images/edit.svg); }
+.icon-workflows { background-image: url(../images/shuffle.svg); }
+.icon-custom-fields { background-image: url(../images/terminal.svg); }
+.icon-plugins { background-image: url(../images/cpu.svg); }
+.icon-news { background-image: url(../images/file.svg); }
+.icon-issue-closed { background-image: url(../images/file-minus.svg); }
+.icon-issue-note { background-image: url(../images/file-text.svg); }
+.icon-changeset { background-image: url(../images/settings.svg); }
+.icon-message { background-image: url(../images/message-circle.svg); }
+.icon-reply { background-image: url(../images/message-circle.svg); }
+.icon-wiki-page { background-image: url(../images/edit.svg); }
+.icon-document { background-image: url(../images/file-text.svg); }
+.icon-project { background-image: url(../images/grid.svg); }
+.icon-add-bullet { background-image: url(../images/plus-circle.svg); }
+.icon-shared { background-image: url(../images/link.svg); }
+.icon-actions { background-image: url(../images/more-horizontal.svg); }
+
+.sort-handle { background-image: url(../images/sort.svg); cursor:move; }
+
+a.icon-checked { 
+  background-image: url(../images/check.svg) !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px 16px !important;
+  background-position-x: 3px !important;
+  background-position-y: 40% !important;}
+input.autocomplete { background-image: url(../images/search.svg);}
+
+.move-right,
+.move-left,
+input[value="↑"],
+input[value="↓"],
+input[value="⇈"],
+input[value="⇊"]
+{
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: unset;
+  background-position: center;
+  color: transparent;
+  background-size: 16px 16px;
+}
+.move-right {background-image: url(../images/arrow-right.svg);}
+.move-left {background-image: url(../images/arrow-left.svg);}
+input[value="↑"] {background-image: url(../images/arrow-up.svg);}
+input[value="↓"] {background-image: url(../images/arrow-down.svg);}
+input[value="⇈"] {background-image: url(../images/chevrons-up.svg);}
+input[value="⇊"] {background-image: url(../images/chevrons-down.svg);}
+
+
+

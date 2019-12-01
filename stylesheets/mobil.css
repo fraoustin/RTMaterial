@@ -1,0 +1,15 @@
+@media screen and (max-width: 899px)
+{
+  #main {
+    margin-top: 0px !important;
+  }
+
+  table.list {
+    border-collapse: unset !important;
+  }
+  
+  form:not(#query_form) table thead th:not(.subject),
+  form:not(#query_form) table tbody td:not(.subject){
+    max-width: unset !important;
+  }
+}

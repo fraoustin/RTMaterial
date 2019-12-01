@@ -1,0 +1,102 @@
+/* load the default Redmine stylesheet */
+@import url(../../../stylesheets/application.css);
+
+@import url(font.css);
+@import url(color.css);
+@import url(icons.css);
+@import url(mobil.css);
+
+html, body {
+  height: 100%; 
+}
+
+#sidebar a,
+#sidebar a:hover,
+#sidebar a:focus {
+  text-decoration: none;
+}
+
+div.tabs-buttons{
+  border-bottom: unset;
+}
+
+#main-menu {
+  left: 0px;
+  padding-left: 6px;
+}
+
+#main-menu li a.selected,
+#content .tabs ul li a.selected {
+  border-bottom: 2px solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px
+}
+
+#content .tabs ul {
+  border-bottom: unset;
+}
+
+#content .tabs ul li a
+{
+  border: unset;
+}
+
+#main {
+  margin-top: 20px;
+}
+
+fieldset {
+  border: 0px;
+}
+
+#login-form {
+  border: unset;
+  background-color: unset;
+}
+
+input[type="submit"],
+select,
+#main-menu .menu-children,
+td.priority {
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  border: 1px solid;
+}
+
+.mypage-box,
+#projects-index ul.projects li.root {
+  border: unset;
+}
+
+td.priority{
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+table.list {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+form:not(#query_form) table thead th:not(.subject),
+form:not(#query_form) table tbody td:not(.subject){
+  max-width:10px;
+}
+
+input[type="submit"] ~ a {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}

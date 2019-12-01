@@ -1,0 +1,10 @@
+/* load the default Redmine stylesheet */
+@import url(../../../stylesheets/responsive.css);
+
+@media screen and (max-width: 899px) {
+
+  #project-jump .drdn-trigger:before {
+      display: none;
+  }
+
+}

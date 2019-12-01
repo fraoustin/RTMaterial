@@ -1,0 +1,203 @@
+/* you can select color on https://material-ui.com/customization/color/ */
+
+html,
+body,
+#main-menu,
+#main-menu li a,
+#main-menu li a.selected,
+#main-menu li a:hover,
+.nodata,
+.warning,
+#errorExplanation,
+#flash_error,
+a, 
+a:link, 
+a:visited,
+a:hover,
+a:focus,
+div.flash.notice,
+#main-menu .menu-children li a:hover {
+  color: rgb(17,17,17);
+}
+
+
+#top-menu,
+#header,
+.flyout-menu h3 {
+    background: #26a69a !important; /* Primary Color 400 */
+}
+
+.flyout-menu {
+    background: #80cbc4 !important; /* Primary Color 200 */
+}
+
+.flyout-menu h3 {
+    border-top-color: #26a69a !important; /* Primary Color 400 */
+    border-bottom-color: #26a69a !important; /* Primary Color 400 */
+}
+
+#main  {
+    background: #e0f2f1; /* Primary Color 50 */
+}
+
+#main-menu li a.selected,
+#content .tabs ul li a.selected,
+input[type="submit"],
+input[type="submit"]:hover,
+div.flash.notice,
+.pagination ul.pages li.current,
+.ui-widget-header,
+#main-menu .menu-children,
+.pagination ul.pages li.current
+{
+    border-color: #78909c !important; /* Accent Color 400 */
+}
+
+input[type="submit"]:hover {
+    border-color: #eceff1; /* Accent Color 50 */
+}
+
+input[type="submit"], 
+div.flash.notice,
+table.list:not(.odd-even) tbody tr:nth-child(odd):hover,
+.odd:hover,
+#issue-changesets div.changeset:nth-child(odd):hover,
+table.list:not(.odd-even) tbody tr:nth-child(even):hover,
+.even:hover,
+#issue-changesets div.changeset:nth-child(even):hover,
+#main-menu .menu-children li a:hover,
+.pagination ul.pages li.page:hover {
+    background-color: #eceff1; /* Accent Color 50 */
+}
+
+input[type="submit"]:hover,
+.pagination ul.pages li.current,
+.ui-widget-header,
+.highlight,
+.pagination ul.pages li.current  {
+    background: #78909c !important; /* Accent Color 400 */
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: #78909c solid; /* Accent Color 400 */
+}
+
+input[type="checkbox"]:focus {
+    outline: none;
+}
+
+#top-menu {
+    color:#f8f8f8;
+}
+
+table.progress td.closed {
+    background: #b0bec5 none repeat scroll 0%; /* Accent Color 200 */
+}
+
+/* Other Color */
+
+#main-menu .menu-children li a {
+    background: unset;
+}
+
+#main-menu,
+#main-menu li a.selected,
+#main-menu li a:hover,
+#main-menu li a.new-object {
+    background: white;
+}
+
+.warning,
+div.flash.error,
+#errorExplanation,
+#flash_error {
+    background-color: #fce4ec; /* Warning Color 50 */
+}
+
+.nodata,
+select {
+    background-color: #fafafa; /* Gray Color 50 */
+}
+
+.warning,
+#flash_error,
+#errorExplanation{
+    border-color: #ef5350; /* Warning Color 400 */
+}
+
+tr.overdue td:first-child,
+#my-page tr.overdue td.id {
+    border-left: 3px solid #ef5350; /* Warning Color 400 */
+}
+
+
+
+.nodata {
+    border-color: #bdbdbd; /* Gray Color 400 */
+}
+
+/* table */
+table.list:not(.odd-even) tbody tr:nth-child(odd), .odd, #issue-changesets div.changeset:nth-child(odd) {
+    background-color: unset;
+}
+
+table.list, .table-list {
+    border: unset;
+}
+
+table.list th,
+.table-list-header {
+    background-color: unset;
+}
+
+tbody tr.context-menu-selection,
+tbody tr.context-menu-selection:hover {
+    background-color: #78909c !important; /* Accent Color 400 */
+}
+
+/* sidebar */
+#sidebar input[type="submit"],
+#sidebar input[type="submit"]:hover
+{
+    border-color: unset !important;
+}
+
+#sidebar input[type="submit"]:hover {
+    border-color: unset;
+}
+
+#sidebar input[type="submit"]  {
+    background: unset;
+}
+
+#sidebar input[type="submit"]:hover  {
+    background: unset;
+}
+
+/* issues */
+div.issue, #history, .box {
+    background: unset;
+    border: unset;
+}
+
+tr.priority-default td.priority {
+    border-color: #66bb6a; /* Color Priority Default 400 */
+}
+
+tr.priority-lowest td.priority {
+    border-color: #42a5f5; /* Color Priority Low 400 */
+}
+
+tr.priority-highest td.priority {
+    border-color: #ef5350; /* Color Priority High 400 */
+}
+
+div.journal ul.details a, ul.revision-info a {
+    color:  #78909c; /* Accent Color 400 */
+}
