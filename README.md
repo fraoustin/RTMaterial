@@ -20,6 +20,8 @@ mv stylesheet\color-blue-red.css stylesheet\color.css
 
 You can add a specific color theme by project: You have to create a custom field for projects with name RTMaterial and value PrimaryColor-AccentColor, sample blue-red.
 
+It's necessary tio activate API Server of redmine
+
 ![custom-field](screenshot/6.png "Custom Field RTMaterial")
 
 List of color:
