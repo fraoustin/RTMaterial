@@ -103,5 +103,16 @@ input[value="↓"] {background-image: url(../images/arrow-down.svg);}
 input[value="⇈"] {background-image: url(../images/chevrons-up.svg);}
 input[value="⇊"] {background-image: url(../images/chevrons-down.svg);}
 
-
+#hideSidebarButton {
+  background-image: url(../images/chevron-right.svg) !important;
+  width: 16px !important;
+  height: 16px !important;
+  background-size: 16px 16px;
+  border-style: solid;
+  border-radius: 8px;
+}
+#hideSidebarButton.sidebar_hidden {
+  background-image: url(../images/chevron-left.svg) !important;
+  background-position: -5px 0 !important;
+}
 
