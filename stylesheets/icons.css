@@ -108,6 +108,7 @@ input[value="⇊"] {background-image: url(../images/chevrons-down.svg);}
   width: 16px !important;
   height: 16px !important;
   background-size: 16px 16px;
+  background-color: white !important;
   border-style: solid;
   border-radius: 8px;
 }
