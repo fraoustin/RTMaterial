@@ -111,6 +111,7 @@ input[value="⇊"] {background-image: url(../images/chevrons-down.svg);}
   background-color: white !important;
   border-style: solid;
   border-radius: 8px;
+  border-width: 1px;
 }
 #hideSidebarButton.sidebar_hidden {
   background-image: url(../images/chevron-left.svg) !important;
