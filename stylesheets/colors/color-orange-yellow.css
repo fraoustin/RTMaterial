@@ -40,6 +40,10 @@ div.flash.notice,
     background: #fff3e0; /* Primary Color 50 */
 }
 
+#sidebar a.selected {
+    background: #ffa726 !important; /* Primary Color 400 */
+}
+
 #main-menu li a.selected,
 #content .tabs ul li a.selected,
 input[type="submit"],

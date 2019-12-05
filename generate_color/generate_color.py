@@ -6,10 +6,10 @@ page = html.fromstring(urllib.urlopen(url).read())
 
 colors={}
 
-for color in page.xpath("//*[@class='jss256']"):
-    colorName = color.xpath(".//*[@class='jss253']/text()")[0]
+for color in page.xpath("//*[@class='jss258']"):
+    colorName = color.xpath(".//*[@class='jss255']/text()")[0]
     value = {}
-    for val in color.xpath(".//*[@class='jss255']"):
+    for val in color.xpath(".//*[@class='jss257']"):
         value[val.xpath("./span[1]/text()")[0]] = val.xpath("./span[2]/text()")[0]
     colors[colorName]=value
 
