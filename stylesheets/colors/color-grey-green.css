@@ -41,7 +41,7 @@ div.flash.notice,
 }
 
 #sidebar a.selected {
-    background: #bdbdbd !important; /* Primary Color 400 */
+    background-color: #bdbdbd !important; /* Primary Color 400 */
 }
 
 #main-menu li a.selected,
