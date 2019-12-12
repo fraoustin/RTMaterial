@@ -3,6 +3,7 @@
 
 @import url(font.css);
 @import url(./colors/color-green-blue.css);
+@import url(./colors.css);
 @import url(icons.css);
 @import url(mobil.css);
 
@@ -99,4 +100,10 @@ input[type="submit"] ~ a {
   padding-right: 6px;
   padding-top: 1px;
   padding-bottom: 1px;
+}
+
+.mypage-box {
+  border: unset;
+  padding: unset;
+  margin: unset;
 }
