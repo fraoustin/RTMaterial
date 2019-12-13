@@ -11,6 +11,10 @@ html, body {
   height: 100%; 
 }
 
+.mypage-box h3 {
+  margin-bottom: unset
+}
+
 #sidebar a,
 #sidebar a:hover,
 #sidebar a:focus {
