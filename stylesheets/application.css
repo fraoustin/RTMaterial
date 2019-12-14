@@ -48,7 +48,7 @@ div.tabs-buttons{
 }
 
 #main {
-  margin-top: 20px;
+  margin-top: unset; /*20px;*/
 }
 
 fieldset {
