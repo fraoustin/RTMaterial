@@ -2,9 +2,9 @@
 
 RTMaterial is a theme for redmine.
 
-![web](screenshot/2.png "Example of view web")
+![web](screenshots/2.png "Example of view web")
 
-![web](screenshot/4.png "Example of view mobile")
+![web](screenshots/4.png "Example of view mobile")
 
 The theme use two colors: *Primary* and *Accent*.
 
@@ -22,7 +22,7 @@ You can add a specific color theme by project: You have to create a custom field
 
 It's necessary tio activate API Server of redmine
 
-![custom-field](screenshot/6.png "Custom Field RTMaterial")
+![custom-field](screenshots/6.png "Custom Field RTMaterial")
 
 List of color:
 
