@@ -7,6 +7,7 @@ function setThemeColor(){
                         if (field.name == "RTMaterial") {
                             console.log(field.value);
                             $("head").append('<link rel="stylesheet" href="/themes/RTMaterial/stylesheets/colors/color-'+ field.value +'.css" type="text/css" />');
+                            $("li:contains(' "+field.value+"')").remove();
                         }
                     })
                 }
