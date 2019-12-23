@@ -1,0 +1,45 @@
+html > body #content {
+	background-color: white !important;
+}
+
+#rdb {
+	background-color:white !important;
+}
+
+.rdb-card {
+    border: unset;
+    background: unset;
+}
+
+.rdb-card-progress, .rdb-compact-progress {
+    background-color: white !important;
+}
+
+
+a#rdb-refresh:hover {
+	background-color: white;
+	border: unset;
+	box-shadow: unset;
+}
+a#rdb-refresh:active {
+	background-color:white;
+	border: unset;
+	box-shadow: unset;
+}
+
+
+.rdb-card-title a.rdb-menu-link, .rdb-card-title > a {
+    border-right: unset !important;
+}
+
+a#rdb-refresh {
+    background-image: url(../images/rotate-cw.svg) !important;
+}
+
+.rdb-checkbox-link.rdb-checkbox-link-enabled {
+    background-image: url(../images/check.svg) !important;
+}
+
+a#rdb-reset {
+    background-image: url(../images/x-circle.svg) !important;
+}
