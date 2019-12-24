@@ -90,10 +90,12 @@ table.list {
   border-spacing: 0 5px;
 }
 
+/*
 form:not(#query_form) table thead th:not(.subject),
 form:not(#query_form) table tbody td:not(.subject){
   max-width:10px;
 }
+*/
 
 input[type="submit"] ~ a {
   border-style: solid;
