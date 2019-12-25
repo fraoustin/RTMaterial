@@ -18,11 +18,7 @@ mv stylesheet\colors.css stylesheet\color.css.default
 mv stylesheet\color-blue-red.css stylesheet\color.css 
 ```
 
-You can add a specific color theme by project: You have to create a custom field for projects with name RTMaterial and value PrimaryColor-AccentColor, sample blue-red.
-
-It's necessary tio activate API Server of redmine
-
-![custom-field](screenshots/6.png "Custom Field RTMaterial")
+You can add a specific color theme by project: You must use https://github.com/fraoustin/redmine_rtmaterial plugin.
 
 List of color:
 
@@ -47,7 +43,7 @@ List of color:
 - blueGrey
 
 
-You can load a specific theme 
+You can load a specific theme  
 
 You can use palette of color from https://material-ui.com/customization/color/
 
