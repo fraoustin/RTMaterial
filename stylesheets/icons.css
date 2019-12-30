@@ -104,18 +104,18 @@ input[value="⇈"] {background-image: url(../images/chevrons-up.svg);}
 input[value="⇊"] {background-image: url(../images/chevrons-down.svg);}
 
 #hideSidebarButton {
-  background-image: url(../images/nosidebar.svg) !important; /*chevron-right.svg*/
+  background-image: url(../images/sidebar.svg) !important; /*chevron-right.svg*/
   width: 16px !important;
   height: 16px !important;
   background-size: 16px 16px;
   background-color: white !important;
-  border-style: solid;
-  /*rder-radius: 8px;
+  border-style: none; /*border-style: solid;
+  border-radius: 8px;
   border-width: 1px;*/
 }
 #hideSidebarButton.sidebar_hidden {
   background-image: url(../images/sidebar.svg) !important; /*chevron-left.svg*/
-  background-position: -5px 0 !important;
+  background-position: unset; /*-5px 0 !important;*/
 }
 
 input[type="submit"] ~ a.icon {

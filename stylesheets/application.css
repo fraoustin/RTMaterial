@@ -121,5 +121,5 @@ input[type="submit"] ~ a {
     position: unset !important;
 }
 #sidebarHandler {
-  right: 16px;
+  right: 16px !important;
 }
