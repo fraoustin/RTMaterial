@@ -115,3 +115,11 @@ input[type="submit"] ~ a {
   padding: unset;
   /* margin: unset; */
 }
+
+/* correctio: of sidebar_hide.css */
+#content {
+    position: unset !important;
+}
+#sidebarHandler {
+  right: 16px;
+}
