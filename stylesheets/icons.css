@@ -86,6 +86,8 @@ fieldset.collapsible>legend,
   padding-left: 20px !important
 }
 
+.atom { background: url(../images/rss.svg);}
+
 .sort-handle { background-image: url(../images/sort.svg); cursor:move; }
 
 a.icon-checked { 
