@@ -81,11 +81,10 @@ input.autocomplete {background-size: 16px 16px;}
 
 
 
-fieldset.collapsible>legend {
-  padding-left: unset !important
+fieldset.collapsible>legend,
+.gantt_subjects div > span.expander {
+  padding-left: 20px !important
 }
-
-
 
 .sort-handle { background-image: url(../images/sort.svg); cursor:move; }
 

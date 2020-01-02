@@ -116,10 +116,14 @@ input[type="submit"] ~ a {
   /* margin: unset; */
 }
 
-/* correctio: of sidebar_hide.css */
+/* correction: of sidebar_hide.css */
 #content {
     position: unset !important;
 }
 #sidebarHandler {
   right: 16px !important;
 }
+
+
+/* correction gant */
+.gantt_subjects div > span .icon-gravatar {float: left !important;}
