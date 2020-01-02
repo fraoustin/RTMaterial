@@ -76,7 +76,9 @@ input.autocomplete {background-size: 16px 16px;}
 .icon-collapsed { background-image: url(../images/plus-square.svg); }
 .icon-expended { background-image: url(../images/minus-square.svg); }
 
-
+fieldset.collapsible>legend {
+  padding-left: unset !important
+}
 
 
 
