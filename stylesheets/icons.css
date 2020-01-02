@@ -71,6 +71,14 @@ input.autocomplete {background-size: 16px 16px;}
 .icon-add-bullet { background-image: url(../images/plus-circle.svg); }
 .icon-shared { background-image: url(../images/link.svg); }
 .icon-actions { background-image: url(../images/more-horizontal.svg); }
+.icon-sorted-desc { background-image: url(../images/arrow-up.svg); }
+.icon-sorted-asc { background-image: url(../images/arrow-down.svg); }
+.icon-collapsed { background-image: url(../images/plus-square.svg); }
+.icon-expended { background-image: url(../images/minus-square.svg); }
+
+
+
+
 
 .sort-handle { background-image: url(../images/sort.svg); cursor:move; }
 
@@ -108,7 +116,8 @@ input[value="⇊"] {background-image: url(../images/chevrons-down.svg);}
   width: 16px !important;
   height: 16px !important;
   background-size: 16px 16px;
-  background-color: white !important;
+  /*background-color: white !important;*/
+  background-color: none !important;
   border-style: none; /*border-style: solid;
   border-radius: 8px;
   border-width: 1px;*/
