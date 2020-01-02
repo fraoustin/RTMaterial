@@ -75,6 +75,8 @@ input.autocomplete {background-size: 16px 16px;}
 .icon-sorted-asc { background-image: url(../images/arrow-down.svg); }
 .icon-collapsed { background-image: url(../images/plus-square.svg); }
 .icon-expended { background-image: url(../images/minus-square.svg); }
+.icon-import { background-image: url(../images/upload.svg); }
+
 
 fieldset.collapsible>legend {
   padding-left: unset !important
