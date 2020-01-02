@@ -86,7 +86,12 @@ fieldset.collapsible>legend,
   padding-left: 20px !important
 }
 
-.atom { background: url(../images/rss.svg);}
+.atom { 
+  background: url(../images/rss.svg) !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px 16px !important;
+  background-position-y: 40% !important;
+}
 
 .sort-handle { background-image: url(../images/sort.svg); cursor:move; }
 
