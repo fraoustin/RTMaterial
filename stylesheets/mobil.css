@@ -12,4 +12,8 @@
   form:not(#query_form) table tbody td:not(.subject){
     max-width: unset !important;
   }
+
+  #hideSidebarButton {
+    display: none !important;
+  }
 }
