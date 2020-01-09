@@ -205,3 +205,8 @@ tr.priority-highest td.priority {
 div.journal ul.details a, ul.revision-info a {
     color:  #29b6f6; /* Accent Color 400 */
 }
+
+/* link into wiki */
+.wiki a, .wiki a:link, .wiki a:visited, #main a.user {
+    color: #29b6f6 !important; /* Accent Color 400 */
+}
