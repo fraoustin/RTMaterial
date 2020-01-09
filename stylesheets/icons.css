@@ -144,3 +144,17 @@ input[value="⇊"] {background-image: url(../images/chevrons-down.svg);}
 input[type="submit"] ~ a.icon {
   padding-left: 24px !important;
 }
+
+/* icons for issue detail */
+div.issue.details div.subject{
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  padding-left: 20px;
+  background-position: 0% 50%;
+}
+div.issue.details div.subject{
+  background-image: url(../images/square.svg) !important;
+} 
+div.closed.issue.details div.subject{
+  background-image: url(../images/check-square.svg) !important;
+} 
