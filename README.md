@@ -8,7 +8,12 @@ RTMaterial is a theme for redmine.
 
 The theme use two colors: *Primary* and *Accent*.
 
-You can change the default theme: you can copy theme in stylesheet\colors in stylesheet\ and rename theme color.css
+You can change the default theme: you can copy theme in stylesheet\colors in stylesheet\ and rename theme color.css.
+
+You can change the default icon: you can copy icon in stylesheet\ico in favicon\ and rename theme favicon.ico.
+
+
+
 
 Sample
 
@@ -16,6 +21,7 @@ Sample
 cp stylesheet\colors\color-blue-red.css stylesheet\
 mv stylesheet\colors.css stylesheet\color.css.default
 mv stylesheet\color-blue-red.css stylesheet\color.css 
+mv stylesheet\ico\icon-blue.ico favicon\favicon.ico 
 ```
 
 You can add a specific color theme by project: You must use https://github.com/fraoustin/redmine_rtmaterial plugin.
