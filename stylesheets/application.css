@@ -123,7 +123,9 @@ input[type="submit"] ~ a {
 #sidebarHandler {
   right: 16px !important;
 }
-
+#sidebar {
+  z-index: unset !important;
+}
 
 /* correction gant */
 .gantt_subjects div > span .icon-gravatar {float: left !important;}
