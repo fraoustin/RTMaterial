@@ -147,3 +147,14 @@ div.wiki table tr td:first-child,
 div.wiki table tr th:first-child {
     border-left: 0;
 }
+
+/* for puglin https://github.com/deecay/redmine_pivot_table */
+
+.pvtAxisContainer li span.pvtAttr {
+    background: unset !important;
+}
+
+.pvtAxisContainer, .pvtVals {
+    border: unset !important;
+    background: unset !important;
+}
