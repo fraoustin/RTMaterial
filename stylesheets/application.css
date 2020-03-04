@@ -158,3 +158,12 @@ div.wiki table tr th:first-child {
     border: unset !important;
     background: unset !important;
 }
+
+/* for plugin https://github.com/Ilogeek/redmine_issue_dynamic_edit */
+.dynamicEdit .btn-primary.close {
+    background: unset important;
+}
+
+.dynamicEdit .btn-primary {
+    color: unset !important;
+}
