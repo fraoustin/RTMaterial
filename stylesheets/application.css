@@ -160,7 +160,8 @@ div.wiki table tr th:first-child {
 }
 
 /* for plugin https://github.com/Ilogeek/redmine_issue_dynamic_edit */
-body.controller-issues.action-show div.issue.details .dynamicEdit .btn-primary.close {
+body.controller-issues.action-show div.issue.details .dynamicEdit .btn-primary.close,
+body.controller-issues.action-show div.issue.details .dynamicEdit .btn-primary.validate {
     background: unset !important;
 }
 
