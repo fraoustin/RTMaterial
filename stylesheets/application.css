@@ -169,7 +169,7 @@ body.controller-issues.action-show div.issue.details .dynamicEdit .btn-primary {
     color: unset !important;
 }
 
-body.controller-issues.action-show .dynamicEdit select
+body.controller-issues.action-show .dynamicEdit select,
 body.controller-issues.action-show .dynamicEdit input, 
 body.controller-issues.action-show .dynamicEdit textarea, 
 body.controller-issues.action-show .dynamicEdit button {
