@@ -175,3 +175,7 @@ body.controller-issues.action-show .dynamicEdit textarea,
 body.controller-issues.action-show .dynamicEdit button {
     border: 1px solid #fff !important;
 }
+
+body.controller-issues.action-show .fa-pencil {
+    display: none !important;
+}
