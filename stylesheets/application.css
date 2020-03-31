@@ -137,11 +137,21 @@ input[type="submit"] ~ a {
     border-left: none !important;
 }
 
+div.wiki table {
+  border-top: 1px solid #bbb !important;  
+  border-bottom: 1px solid #bbb !important;   
+}
+
+div.wiki td {
+    border: unset !important; 
+}
+
 div.wiki table, div.wiki td, div.wiki th {
     padding: 4px;
-    border-bottom: 1px solid #bbb !important; 
+/*    border-bottom: 1px solid #bbb !important; */
     width: -webkit-fill-available;
     border-left: 1px solid #bbb; 
+    border-right: 1px solid #bbb; 
 }
 div.wiki table tr td:first-child,
 div.wiki table tr th:first-child {
