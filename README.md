@@ -12,9 +12,6 @@ You can change the default theme: you can copy theme in stylesheet\colors in sty
 
 You can change the default icon: you can copy icon in stylesheet\ico in favicon\ and rename theme favicon.ico.
 
-
-
-
 Sample
 
 ```

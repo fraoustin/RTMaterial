@@ -38,8 +38,8 @@ input.autocomplete {background-size: 16px 16px;}
 .icon-summary  { background-image: url(../images/zap.svg); }
 .icon-server-authentication { background-image: url(../images/key.svg); }
 .icon-issue { background-image: url(../images/file.svg); }
-.icon-zoom-in { background-image: url(../images/zoom_in.svg); }
-.icon-zoom-out { background-image: url(../images/zoom_out.svg); }
+.icon-zoom-in { background-image: url(../images/zoom-in.svg); }
+.icon-zoom-out { background-image: url(../images/zoom-out.svg); }
 .icon-magnifier { background-image: url(../images/search.svg); }
 .icon-passwd { background-image: url(../images/key.svg); }
 .icon-arrow-right, .icon-test, .icon-sticky { background-image: url(../images/arrow-right.svg); }
