@@ -190,6 +190,6 @@ body.controller-issues.action-show .fa-pencil {
     display: none !important;
 }
 
-rect.task {
-  height: unset !important;
+.mermaid rect.task {
+  height: 20px !important;
 }
