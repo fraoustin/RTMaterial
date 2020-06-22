@@ -189,3 +189,7 @@ body.controller-issues.action-show .dynamicEdit button {
 body.controller-issues.action-show .fa-pencil {
     display: none !important;
 }
+
+rect.task {
+  height: unset !important;
+}
