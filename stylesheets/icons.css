@@ -164,7 +164,7 @@ div.closed.issue.details div.subject h3{
 /* icon for https://github.com/eichisanden/redmine_markdown_task_list */
 .wiki input[type='checkbox'] { 
   width: 0px;
-  margin-right: 25px;
+  margin-right: 16px;
 }
 .wiki input[type='checkbox']:after { 
   content: url(../images/square.svg);
