@@ -159,3 +159,16 @@ div.issue.details div.subject h3{
 div.closed.issue.details div.subject h3{
   background-image: url(../images/check-square.svg) !important;
 } 
+
+
+/* icon for https://github.com/eichisanden/redmine_markdown_task_list */
+.wiki input[type='checkbox'] { 
+  width: 0px;
+  margin-right: 25px;
+}
+.wiki input[type='checkbox']:after { 
+  content: url(../images/square.svg);
+}
+.wiki input[type='checkbox']:checked:after { 
+  content: url(../images/check-square.svg);
+}
