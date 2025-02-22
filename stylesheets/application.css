@@ -202,3 +202,11 @@ svg.icon-svg {
 .jstEditor {
     padding-top: 2px;
 }
+
+table.list td {
+    border-top: unset;
+}
+
+table.list th {
+    border-bottom: unset;
+}
