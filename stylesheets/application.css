@@ -193,3 +193,12 @@ body.controller-issues.action-show .fa-pencil {
 .mermaid rect.task {
   height: 20px !important;
 }
+
+/* for redmine 6.x */
+svg.icon-svg {
+    visibility: hidden;
+}
+
+.jstEditor {
+    padding-top: 2px;
+}

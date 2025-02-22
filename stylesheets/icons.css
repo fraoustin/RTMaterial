@@ -2,7 +2,11 @@
 .icon,
 .icon-only,
 .sort-handle,
-input.autocomplete {background-size: 16px 16px;}
+input.autocomplete {
+  background-size: 16px 16px; 
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
 
 .icon-add { background-image: url(../images/plus-circle.svg); }
 .icon-edit { background-image: url(../images/edit.svg); }
