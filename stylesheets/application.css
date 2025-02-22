@@ -203,7 +203,7 @@ svg.icon-svg {
     padding-top: 2px;
 }
 
-table.list td {
+table.list td:not(.priority) {
     border-top: unset;
 }
 
