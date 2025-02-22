@@ -210,3 +210,7 @@ table.list td {
 table.list th {
     border-bottom: unset;
 }
+
+#sidebarHandler {
+    margin-top: 30px !important;
+}
