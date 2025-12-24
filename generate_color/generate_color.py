@@ -19,13 +19,13 @@ colors={'pink': {'200': '#f48fb1', '900': '#880e4f', '600': '#d81b60', 'A100': '
 for primary in colors:
     for accent in colors:
         if primary != accent:
-            filein = file('template_color.css')
+            filein = open('template_color.css')
             txt = filein.read()
             for val in colors[primary]:
                 txt = txt.replace('Primary'+val, colors[primary][val])
             for val in colors[accent]:
                 txt = txt.replace('Accent'+val, colors[accent][val])
-            fileout = file('color-'+primary+'-'+accent+'.css', 'w')
+            fileout = open('color-'+primary+'-'+accent+'.css', 'w')
             fileout.write(txt)
             fileout.close()
             filein.close()

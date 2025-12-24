@@ -8,8 +8,8 @@ input.autocomplete {
   background-position-y: center;
 }
 
-.icon-add { background-image: url(../images/plus-circle.svg); }
-.icon-edit { background-image: url(../images/edit.svg); }
+.icon-add, .icon-add:not(:has(svg))  { background-image: url(../images/plus-circle.svg); }
+.icon-edit, .icon-edit:not(:has(svg)) { background-image: url(../images/edit.svg); }
 .icon-copy { background-image: url(../images/copy.svg); }
 .icon-duplicate { background-image: url(../images/copy.svg); }
 .icon-del { background-image: url(../images/trash-2.svg); }
@@ -20,14 +20,14 @@ input.autocomplete {
 .icon-multiple { background-image: url(../images/copy.svg); }
 .icon-folder { background-image: url(../images/folder.svg); }
 .open .icon-folder { background-image: url(../images/folder.svg); }
-.icon-package { background-image: url(../images/package.svg); }
+.icon-package, .icon .custom-tables { background-image: url(../images/package.svg); }
 .icon-user { background-image: url(../images/user.svg); }
 .icon-project, .icon-projects { background-image: url(../images/grid.svg); }
 .icon-help { background-image: url(../images/help-circle.svg); }
 .icon-attachment  { background-image: url(../images/paperclip.svg); }
 .icon-history  { background-image: url(../images/archive.svg); }
 .icon-time-entry, .icon-time  { background-image: url(../images/clock.svg); }
-.icon-time-add  { background-image: url(../images/watch.svg); }
+.icon-time-add, .icon-time-add:not(:has(svg))  { background-image: url(../images/watch.svg); }
 .icon-stats  { background-image: url(../images/activity.svg); }
 .icon-warning  { background-image: url(../images/alert-triangle.svg); }
 .icon-error { background-image: url(../images/alert-circle.svg); }
@@ -62,7 +62,7 @@ input.autocomplete {
 .icon-issue-edit { background-image: url(../images/edit.svg); }
 .icon-workflows { background-image: url(../images/shuffle.svg); }
 .icon-custom-fields { background-image: url(../images/terminal.svg); }
-.icon-plugins { background-image: url(../images/cpu.svg); }
+.icon-plugins, .icon-applications { background-image: url(../images/cpu.svg); }
 .icon-news { background-image: url(../images/file.svg); }
 .icon-issue-closed { background-image: url(../images/file-minus.svg); }
 .icon-issue-note { background-image: url(../images/file-text.svg); }

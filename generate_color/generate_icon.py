@@ -100,7 +100,7 @@ for primary in colors:
     txt=txt.replace('Color500', colors[primary]['500'])
     txt=txt.replace('Color600', colors[primary]['600'])
     txt=txt.replace('Color700', colors[primary]['700'])
-    fileout = file('icon-'+primary+'.svg', 'w')
+    fileout = open('icon-'+primary+'.svg', 'w')
     fileout.write(txt)
     fileout.close()
                 
