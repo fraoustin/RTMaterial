@@ -17,6 +17,10 @@ html, body {
   margin-bottom: unset
 }
 
+.mypage-box {
+  box-shadow: unset;
+}
+
 #sidebar a,
 #sidebar a:hover,
 #sidebar a:focus {
