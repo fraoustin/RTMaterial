@@ -20,7 +20,7 @@ input.autocomplete {
 .icon-multiple { background-image: url(../images/copy.svg); }
 .icon-folder { background-image: url(../images/folder.svg); }
 .open .icon-folder { background-image: url(../images/folder.svg); }
-.icon-package, .icon .custom-tables { background-image: url(../images/package.svg); }
+.icon-package, .icon.custom-tables { background-image: url(../images/package.svg); }
 .icon-user { background-image: url(../images/user.svg); }
 .icon-project, .icon-projects { background-image: url(../images/grid.svg); }
 .icon-help { background-image: url(../images/help-circle.svg); }
